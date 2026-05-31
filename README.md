@@ -1,6 +1,6 @@
 # Zentract Plugins
 
-The official Zentract plugin marketplace for Codex and Claude Code.
+The official Zentract plugin marketplace and setup guide for Codex, Claude Code, and Cursor.
 
 Install this marketplace to let supported clients answer Zentract product questions and, after authorization, work with your Zentract tasks, projects, clients, time entries, and timers.
 
@@ -25,6 +25,27 @@ From inside Claude Code, add the Zentract marketplace and install the plugin:
 /plugin install zentract@zentract-plugins
 /reload-plugins
 ```
+
+## Install In Cursor
+
+Use the one-click install link:
+
+[Add Zentract to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
+
+If your browser does not open Cursor from that link, add Zentract to your global Cursor MCP config at `~/.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "Zentract": {
+      "type": "http",
+      "url": "https://zentract.io/mcp"
+    }
+  }
+}
+```
+
+Restart Cursor or reload the window after saving the config.
 
 ## What The Plugin Adds
 

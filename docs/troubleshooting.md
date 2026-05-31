@@ -38,6 +38,29 @@ If the marketplace was added earlier, refresh it:
 /plugin marketplace update zentract-plugins
 ```
 
+## Cursor
+
+Try the one-click install link first:
+
+[Add Zentract to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
+
+If the one-click install link does not open Cursor, add Zentract manually to `~/.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "Zentract": {
+      "type": "http",
+      "url": "https://zentract.io/mcp"
+    }
+  }
+}
+```
+
+After saving, restart Cursor or reload the window.
+
+If Zentract still does not appear, open Cursor's MCP settings and confirm that `Zentract` is listed and enabled.
+
 ## Zentract Authorization
 
 Public Zentract questions, such as product, pricing, FAQ, and API discovery, do not require account authorization.
