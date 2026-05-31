@@ -1,0 +1,44 @@
+{
+  "name": "zentract",
+  "version": "0.1.0",
+  "description": "Use Zentract from Codex.",
+  "author": {
+    "name": "Vokality",
+    "url": "https://zentract.io"
+  },
+  "homepage": "https://zentract.io",
+  "repository": "https://github.com/Vokality/zentract-plugins",
+  "license": "Proprietary",
+  "keywords": [
+    "zentract",
+    "mcp",
+    "time-tracking",
+    "tasks",
+    "projects"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Zentract",
+    "shortDescription": "Work with Zentract tasks and timers",
+    "longDescription": "Ask about Zentract, review tasks and projects, manage clients and time entries, and start or stop timers from your authorized Zentract account.",
+    "developerName": "Vokality",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://zentract.io",
+    "privacyPolicyURL": "https://zentract.io/privacy",
+    "termsOfServiceURL": "https://zentract.io/terms",
+    "defaultPrompt": [
+      "List my Zentract tasks",
+      "Do I have a running Zentract timer?",
+      "Start a timer for a Zentract task"
+    ],
+    "brandColor": "#EF6438",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

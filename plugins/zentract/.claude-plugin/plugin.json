@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "zentract",
+  "displayName": "Zentract",
+  "version": "0.1.0",
+  "description": "Use Zentract from Claude Code.",
+  "author": {
+    "name": "Vokality",
+    "email": "support@zentract.io",
+    "url": "https://zentract.io"
+  },
+  "homepage": "https://zentract.io",
+  "repository": "https://github.com/Vokality/zentract-plugins",
+  "license": "Proprietary",
+  "keywords": [
+    "zentract",
+    "mcp",
+    "time-tracking",
+    "tasks",
+    "projects"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

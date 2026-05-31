@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Zentract": {
+      "type": "http",
+      "url": "https://zentract.io/mcp"
+    }
+  }
+}
