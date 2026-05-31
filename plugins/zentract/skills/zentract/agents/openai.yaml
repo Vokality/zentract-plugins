@@ -1,4 +1,4 @@
 interface:
   display_name: "Zentract"
-  short_description: "Use Zentract through MCP"
+  short_description: "Work with Zentract tasks and timers"
   default_prompt: "List my current Zentract tasks"
