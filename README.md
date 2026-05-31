@@ -52,7 +52,7 @@ Restart Cursor or reload the window after saving the config.
 The `zentract` plugin adds:
 
 - Product, pricing, FAQ, and API discovery answers for Zentract.
-- Authorized access to Zentract tasks, projects, clients, time entries, and timers.
+- Authorized access to Zentract tasks, projects, clients, time entries, manual time-entry creation, and timers.
 - Timer actions when you explicitly ask to start or stop a timer.
 
 Account-specific actions require Zentract authorization. If authorization is missing or expired, your client will prompt you to reconnect Zentract.

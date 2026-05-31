@@ -1,6 +1,6 @@
 {
   "name": "zentract",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use Zentract from Codex.",
   "author": {
     "name": "Vokality",
@@ -20,8 +20,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Zentract",
-    "shortDescription": "Work with Zentract tasks and timers",
-    "longDescription": "Ask about Zentract, review tasks and projects, manage clients and time entries, and start or stop timers from your authorized Zentract account.",
+    "shortDescription": "Work with Zentract tasks and time",
+    "longDescription": "Ask about Zentract, review tasks and projects, manage clients and time entries, create manual time entries, and start or stop timers from your authorized Zentract account.",
     "developerName": "Vokality",
     "category": "Productivity",
     "capabilities": [
@@ -34,6 +34,7 @@
     "defaultPrompt": [
       "List my Zentract tasks",
       "Do I have a running Zentract timer?",
+      "Add a manual Zentract time entry",
       "Start a timer for a Zentract task"
     ],
     "brandColor": "#EF6438",

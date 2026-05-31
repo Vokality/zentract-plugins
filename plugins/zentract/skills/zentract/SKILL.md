@@ -1,6 +1,6 @@
 ---
 name: zentract
-description: Use Zentract to answer product questions and, after authorization, work with the user's tasks, projects, clients, time entries, and timers.
+description: Use Zentract to answer product questions and, after authorization, work with the user's tasks, projects, clients, time entries, manual time-entry creation, and timers.
 ---
 
 # Zentract
@@ -34,16 +34,18 @@ Authorized account tools currently include:
 - `list-zentract-projects`
 - `list-zentract-clients`
 - `list-zentract-time-entries`
+- `create-zentract-manual-time-entry`
 - `get-running-zentract-timer`
 - `start-zentract-timer`
 - `stop-zentract-timer`
 
-Use each tool's available arguments. Listing tools commonly support pagination, text search, and relevant IDs or status fields. Starting a timer requires a `taskId`.
+Use each tool's available arguments. Listing tools commonly support pagination, text search, and relevant IDs or status fields. Creating a manual time entry requires `taskId`, `startTime`, and `endTime` ISO datetimes. Starting a timer requires a `taskId`.
 
 ## Safety Rules
 
 - Do not infer private Zentract account data from memory, local files, screenshots, or unrelated context. Use Zentract tools for account-specific answers.
 - Do not change account data from broad prompts like "look at my tasks" or "what am I working on." Use read-only tools first.
+- Create manual time entries only when the user explicitly asks to add or record historical time.
 - Do not expose bearer tokens, OAuth codes, or challenge details beyond what is necessary to explain an auth failure.
 - Do not use alternate API calls for private account data unless the user explicitly asks for that fallback and provides the required authorization path.
 

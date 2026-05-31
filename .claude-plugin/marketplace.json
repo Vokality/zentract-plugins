@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "zentract-plugins",
-  "description": "Zentract plugins for working with tasks, projects, clients, time entries, and timers.",
+  "description": "Zentract plugins for working with tasks, projects, clients, time entries, manual time-entry creation, and timers.",
   "owner": {
     "name": "Vokality",
     "email": "support@zentract.io"
@@ -11,8 +11,8 @@
       "name": "zentract",
       "displayName": "Zentract",
       "source": "./plugins/zentract",
-      "description": "Use Zentract from Claude Code to review tasks and projects, manage clients and time entries, and start or stop timers.",
-      "version": "0.1.0",
+      "description": "Use Zentract from Claude Code to review tasks and projects, manage clients and time entries, create manual time entries, and start or stop timers.",
+      "version": "0.1.1",
       "author": {
         "name": "Vokality",
         "email": "support@zentract.io"
