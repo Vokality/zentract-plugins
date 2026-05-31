@@ -30,7 +30,7 @@ From inside Claude Code, add the Zentract marketplace and install the plugin:
 
 Use the one-click install link:
 
-[Add Zentract to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
+[Add Zentract to Cursor](https://cursor.com/en-US/install-mcp?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
 
 If your browser does not open Cursor from that link, add Zentract to your global Cursor MCP config at `~/.cursor/mcp.json`:
 

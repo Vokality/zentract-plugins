@@ -42,7 +42,7 @@ If the marketplace was added earlier, refresh it:
 
 Try the one-click install link first:
 
-[Add Zentract to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
+[Add Zentract to Cursor](https://cursor.com/en-US/install-mcp?name=Zentract&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vemVudHJhY3QuaW8vbWNwIn0%3D)
 
 If the one-click install link does not open Cursor, add Zentract manually to `~/.cursor/mcp.json`:
 
