@@ -1,6 +1,6 @@
 {
   "name": "zentract",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Use Zentract from Codex.",
   "author": {
     "name": "Vokality",
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "Zentract",
     "shortDescription": "Work with Zentract tasks and time",
-    "longDescription": "Ask about Zentract, review tasks and projects, manage clients and time entries, create manual time entries, and start or stop timers from your authorized Zentract account.",
+    "longDescription": "Ask about Zentract, review tasks and projects, create and update tasks, manage clients and time entries, create manual time entries, and start or stop timers from your authorized Zentract account.",
     "developerName": "Vokality",
     "category": "Productivity",
     "capabilities": [
@@ -33,6 +33,8 @@
     "termsOfServiceURL": "https://zentract.io/terms",
     "defaultPrompt": [
       "List my Zentract tasks",
+      "Create a Zentract task",
+      "Update a Zentract task",
       "Do I have a running Zentract timer?",
       "Add a manual Zentract time entry",
       "Start a timer for a Zentract task"

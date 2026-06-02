@@ -1,4 +1,4 @@
 interface:
   display_name: "Zentract"
-  short_description: "Work with Zentract tasks and timers"
+  short_description: "Create, update, and review Zentract tasks and timers"
   default_prompt: "List my current Zentract tasks"

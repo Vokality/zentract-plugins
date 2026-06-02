@@ -65,7 +65,7 @@ If Zentract still does not appear, open Cursor's MCP settings and confirm that `
 
 Public Zentract questions, such as product, pricing, FAQ, and API discovery, do not require account authorization.
 
-Account-specific actions, such as listing tasks or starting timers, require Zentract authorization. If the client reports that authorization is missing or expired, reconnect Zentract from the client’s plugin authorization prompt.
+Account-specific actions, such as listing, creating, or updating tasks or starting timers, require Zentract authorization. If the client reports that authorization is missing or expired, reconnect Zentract from the client’s plugin authorization prompt.
 
 ## Connectivity Check
 
